@@ -41,7 +41,7 @@ export default function ContactPage() {
     const fetchJobs = async () => {
       try {
         const { data, error } = await supabase
-          .from('jobs_job')
+          .from('jobs')
           .select('id, title, country');
         
         if (error) {

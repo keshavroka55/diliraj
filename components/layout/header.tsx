@@ -56,7 +56,7 @@ export function Header() {
       try {
         setLoading(true)
         const { data, error } = await supabase
-          .from("jobs_job")
+          .from("jobs")
           .select("id, title, country")
 
         if (error) {
