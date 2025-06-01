@@ -37,26 +37,26 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Ahmed Al-Mansouri",
+      name: "Pabitra KC",
       role: "CEO & Founder",
       experience: "15+ years in visa services",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Sarah Johnson",
+      name: "Bibash Archarya",
       role: "Head of Operations",
       experience: "12+ years in immigration",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Mohammed Hassan",
+      name: "Dilliraj Sharma",
       role: "Senior Visa Consultant",
       experience: "10+ years in Gulf visas",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Fatima Al-Zahra",
-      role: "Customer Relations Manager",
+      name: "Sweekar Nepali",
+      role: "Customer Data Manager",
       experience: "8+ years in customer service",
       image: "/placeholder.svg?height=300&width=300",
     },

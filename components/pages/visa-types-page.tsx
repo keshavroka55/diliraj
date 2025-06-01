@@ -5,10 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import {
-  Plane,
-  Briefcase,
   Users,
-  GraduationCap,
   Clock,
   CheckCircle,
   ArrowRight,
@@ -21,56 +18,8 @@ import { Footer } from "@/components/layout/footer"
 
 export default function VisaTypesPage() {
   const visaTypes = [
-    {
-      id: "tourist",
-      name: "Tourist Visa",
-      icon: <Plane className="h-8 w-8 text-blue-600" />,
-      description: "Perfect for leisure travel, sightseeing, and visiting friends and family",
-      duration: "30-90 days",
-      processing: "24-48 hours",
-      price: "From $99",
-      features: [
-        "Single or multiple entry options",
-        "Valid for tourism and leisure",
-        "Visit friends and family",
-        "Attend cultural events",
-        "Shopping and sightseeing",
-      ],
-      requirements: [
-        "Valid passport (6+ months)",
-        "Passport-sized photographs",
-        "Hotel booking confirmation",
-        "Return flight tickets",
-        "Bank statements (3 months)",
-        "Travel insurance",
-      ],
-      countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"],
-    },
-    {
-      id: "business",
-      name: "Business Visa",
-      icon: <Briefcase className="h-8 w-8 text-green-600" />,
-      description: "For business meetings, conferences, and commercial activities",
-      duration: "30-90 days",
-      processing: "48-72 hours",
-      price: "From $149",
-      features: [
-        "Attend business meetings",
-        "Participate in conferences",
-        "Explore business opportunities",
-        "Meet with clients and partners",
-        "Sign business contracts",
-      ],
-      requirements: [
-        "Valid passport (6+ months)",
-        "Business invitation letter",
-        "Company registration documents",
-        "Bank statements (6 months)",
-        "Travel insurance",
-        "Hotel booking confirmation",
-      ],
-      countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"],
-    },
+
+
     {
       id: "work",
       name: "Work Visa",
@@ -96,80 +45,7 @@ export default function VisaTypesPage() {
       ],
       countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman"],
     },
-    {
-      id: "family",
-      name: "Family Visa",
-      icon: <Users className="h-8 w-8 text-red-600" />,
-      description: "For family reunification and dependent family members",
-      duration: "1-2 years",
-      processing: "7-14 days",
-      price: "From $199",
-      features: [
-        "Spouse and children visa",
-        "Family reunification",
-        "Long-term stay options",
-        "Renewable visa",
-        "Access to local services",
-      ],
-      requirements: [
-        "Valid passport (6+ months)",
-        "Marriage certificate",
-        "Birth certificates (children)",
-        "Sponsor's employment visa",
-        "Medical certificates",
-        "Salary certificate",
-      ],
-      countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain"],
-    },
-    {
-      id: "student",
-      name: "Student Visa",
-      icon: <GraduationCap className="h-8 w-8 text-orange-600" />,
-      description: "For students pursuing education in Gulf universities and institutions",
-      duration: "1-4 years",
-      processing: "7-14 days",
-      price: "From $249",
-      features: [
-        "Study at universities",
-        "Part-time work allowed",
-        "Renewable annually",
-        "Access to student services",
-        "Multiple entry options",
-      ],
-      requirements: [
-        "Valid passport (6+ months)",
-        "University acceptance letter",
-        "Educational transcripts",
-        "Medical fitness certificate",
-        "Financial proof",
-        "Sponsor guarantee letter",
-      ],
-      countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain"],
-    },
-    {
-      id: "transit",
-      name: "Transit Visa",
-      icon: <Clock className="h-8 w-8 text-gray-600" />,
-      description: "For short layovers and transit through Gulf airports",
-      duration: "48-96 hours",
-      processing: "12-24 hours",
-      price: "From $49",
-      features: [
-        "Airport transit",
-        "Short city visits",
-        "Quick processing",
-        "Single entry only",
-        "No extension allowed",
-      ],
-      requirements: [
-        "Valid passport (6+ months)",
-        "Onward flight tickets",
-        "Visa for final destination",
-        "Transit hotel booking",
-        "Travel insurance",
-      ],
-      countries: ["UAE", "Qatar", "Kuwait", "Bahrain"],
-    },
+
   ]
 
   return (

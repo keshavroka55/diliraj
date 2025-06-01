@@ -139,25 +139,11 @@ export default function ContactPage() {
 
   const offices = [
     {
-      country: 'UAE',
-      city: 'Dubai',
-      address: 'Business Bay, Dubai, UAE',
-      phone: '+971 4 123 4567',
+      country: 'NEPAL',
+      city: 'Lalitpur',
+      address: 'Kupondole, Nepal',
+      phone: '9708696705',
       email: 'dubai@gulfvisaservices.com',
-    },
-    {
-      country: 'Saudi Arabia',
-      city: 'Riyadh',
-      address: 'King Fahd Road, Riyadh, KSA',
-      phone: '+966 11 234 5678',
-      email: 'riyadh@gulfvisaservices.com',
-    },
-    {
-      country: 'Qatar',
-      city: 'Doha',
-      address: 'West Bay, Doha, Qatar',
-      phone: '+974 4444 5555',
-      email: 'doha@gulfvisaservices.com',
     },
   ];
 
