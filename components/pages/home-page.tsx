@@ -136,7 +136,7 @@ export default function HomePage() {
 
     setIsSubmitting(true)
     try {
-      const { error } = await supabase.from('applications').insert({
+      const { error } = await supabase.from('form_submissions').insert({
         job_id: formData.jobId,
         name: formData.name,
         email: formData.email,
